@@ -1,0 +1,49 @@
+.App {
+    width: 100w;
+    height: 100vh;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+
+}
+
+.navbar {
+    background-color: beige;
+    width: 100%;
+    height: 80px;
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+}
+
+.navbar .LHS {
+    flex: 50%;
+    justify-content: center;
+    display: flex;
+
+    align-items: center;
+
+}
+
+.navbar .RHS {
+    flex: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 25px;
+}
+
+.navbar .LHS .links {
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+
+    font-weight: 100;
+    margin-left: 15px;
+
+}
+
+.navbar .LHS .links a {
+    padding: 20px;
+}
